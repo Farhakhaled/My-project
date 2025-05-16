@@ -10,7 +10,7 @@ from tkinter import scrolledtext, messagebox
 
 # Function to interact with Gemini API
 def ask_gemini(prompt, api_key):
-    url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent"
+    url = "api_key_url"# it is private key 
     headers = {"Content-Type": "application/json"}
     params = {"key": api_key}
     data = {"contents": [{"parts": [{"text": prompt}]}]}
